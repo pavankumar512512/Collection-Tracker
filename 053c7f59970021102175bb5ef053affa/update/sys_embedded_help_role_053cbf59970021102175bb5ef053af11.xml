@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_960589_collect_0.admin" name="x_960589_collect_0.admin">413cbf59970021102175bb5ef053af0e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 03:39:40</sys_created_on>
+        <sys_id>053cbf59970021102175bb5ef053af11</sys_id>
+        <sys_name>413cbf59970021102175bb5ef053af0e</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_update_name>sys_embedded_help_role_053cbf59970021102175bb5ef053af11</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

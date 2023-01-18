@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0ef104ed970021102175bb5ef053af13" label="Collection Table" max_length="40" name="x_960589_collect_0_collection_table" text_index="true" type="collection">
+        <element label="Cost" max_length="40" name="cost" type="integer"/>
+        <element label="Purchasing Date" max_length="40" name="date_purchased" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="FInal Price" max_length="20" name="final_price" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="MRP" max_length="20" name="m_r_p" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="redmi" label="Product Name" max_length="40" name="product_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lenevo" sequence="0" value="Lenevo"/>
+                <element inactive_on_update="false" label="Redmi" sequence="1" value="redmi"/>
+                <element inactive_on_update="false" label="Nokia" sequence="2" value="nokia"/>
+                <element inactive_on_update="false" label="Iphone" sequence="3" value="iphone"/>
+                <element inactive_on_update="false" label="Lenova" sequence="4" value="lenova"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="40" name="short_description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Discount" max_length="40" name="value" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="short_description"/>
+            <element name="final_price"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

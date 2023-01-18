@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Find Number of Nokia Phones</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-01-12 12:30:44</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var total = 0;
+var record = new GlideRecord('x_960589_collect_0_collection_table');
+
+record.addQuery('product_name','=','nokia');
+record.addQuery('date_purchased',"!=",'');
+record.query();
+
+while(record.next()){
+	++total;
+}
+
+gs.info("No of Nokia phone orders:"+total);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 12:44:31</sys_created_on>
+        <sys_id>6a95c312975021102175bb5ef053af44</sys_id>
+        <sys_name>Find Number of Nokia Phones</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_update_name>sysauto_script_6a95c312975021102175bb5ef053af44</sys_update_name>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

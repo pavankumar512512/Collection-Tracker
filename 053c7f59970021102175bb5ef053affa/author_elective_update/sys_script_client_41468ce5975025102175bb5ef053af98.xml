@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>set needit field values</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+// 	g_form.setValue('short_description','This text is from collection tracker application');
+// 		g_form.addInfoMessage("HHHHHHHHHHHHH"+g_form.getValue('short_description'));
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-09 14:45:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41468ce5975025102175bb5ef053af98</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>set needit field values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_update_name>sys_script_client_41468ce5975025102175bb5ef053af98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 08:39:45</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</application>
+        <file_path/>
+        <instance_id>2ea7e3c0db5a99948aea21c4059619a1</instance_id>
+        <instance_name>dev137204</instance_name>
+        <name>sys_script_client_41468ce5975025102175bb5ef053af98</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;set needit field values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+// 	g_form.setValue('short_description','This text is from collection tracker application');
+// 		g_form.addInfoMessage("HHHHHHHHHHHHH"+g_form.getValue('short_description'));
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-09 14:45:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;41468ce5975025102175bb5ef053af98&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;set needit field values&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Collection Tracker" source="x_960589_collect_0"&gt;053c7f59970021102175bb5ef053affa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Collection Tracker"&gt;053c7f59970021102175bb5ef053affa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_41468ce5975025102175bb5ef053af98&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-10 08:39:45&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1053309725</payload_hash>
+        <record_name>set needit field values</record_name>
+        <reverted_from/>
+        <source>813c7f59970021102175bb5ef053affc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 08:39:45</sys_created_on>
+        <sys_id>538d736597dc25102175bb5ef053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1859ad5deb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 08:39:45</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9b8d736523dc2510b66b9cbfe9982105</update_guid>
+        <update_guid_history>9b8d736523dc2510b66b9cbfe9982105:-1053309725,f99cf3e136dc251075d5804b2d7466c4:552904140,9b4a6fa1709c25109b4b4ef3213b48ac:-503871726,cc6b4c2d7850251006701be2a13e9d68:-1115450363,f029c4e9be5025103e2a000c29679e6e:21608781,ab978c69335025102acbb7e3cecc2aa7:-1919480079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 09:58:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0b8a00980db04ecd83df49dee8459649</sys_id>
+        <sys_metadata>41468ce5975025102175bb5ef053af98</sys_metadata>
+        <sys_name>set needit field values</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_scope_delete display_value="">23686e1302f84e9aac993d8d305ffea4</sys_scope_delete>
+        <sys_update_name>sys_script_client_41468ce5975025102175bb5ef053af98</sys_update_name>
+        <sys_update_version display_value="sys_script_client_41468ce5975025102175bb5ef053af98">538d736597dc25102175bb5ef053af06</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

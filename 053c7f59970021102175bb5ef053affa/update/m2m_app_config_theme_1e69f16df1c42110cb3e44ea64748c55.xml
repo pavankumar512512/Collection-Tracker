@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 12:46:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e69f16df1c42110cb3e44ea64748c55</sys_id>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_update_name>m2m_app_config_theme_1e69f16df1c42110cb3e44ea64748c55</sys_update_name>
+        <theme display_value="Starter Workspace Theme">5a69f16daec4211093826f5e7142cb54</theme>
+        <ux_app_configuration display_value="Collection Tracker Config">d669f16d0bc42110db51a8c5395de45a</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

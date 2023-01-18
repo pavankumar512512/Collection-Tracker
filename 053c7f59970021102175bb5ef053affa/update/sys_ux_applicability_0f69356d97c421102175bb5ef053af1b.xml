@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_960589_collect_0.Audience for app collection-tracker</api_name>
+        <description/>
+        <name>Audience for app collection-tracker</name>
+        <roles>413cbf59970021102175bb5ef053af0e,8d3cbf59970021102175bb5ef053af13</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 12:46:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f69356d97c421102175bb5ef053af1b</sys_id>
+        <sys_name>Audience for app collection-tracker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_update_name>sys_ux_applicability_0f69356d97c421102175bb5ef053af1b</sys_update_name>
+    </sys_ux_applicability>
+</record_update>

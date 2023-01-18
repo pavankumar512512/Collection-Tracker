@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="360e27a5979c25102175bb5ef053af74" extends="task" label="Collection Table 2" max_length="40" name="x_960589_collect_0_collection_table_2" type="collection"/>
+</database>

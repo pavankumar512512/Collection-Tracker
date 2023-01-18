@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 10:57:42</sys_created_on>
+        <sys_id>0c2dd075975065102175bb5ef053afc7</sys_id>
+        <sys_name>PurchaseAndDeliveryDate.x_960589_collect_0.user</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_security_acl display_value="PurchaseAndDeliveryDate">842dd075975065102175bb5ef053afc3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0c2dd075975065102175bb5ef053afc7</sys_update_name>
+        <sys_user_role display_value="x_960589_collect_0.user" name="x_960589_collect_0.user">8d3cbf59970021102175bb5ef053af13</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

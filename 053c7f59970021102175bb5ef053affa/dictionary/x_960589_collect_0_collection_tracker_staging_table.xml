@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9e6e088e979c65102175bb5ef053af57" extends="sys_import_set_row" label="collection tracker staging table" max_length="40" name="x_960589_collect_0_collection_tracker_staging_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Consession" label="Consession" max_length="40" name="u_consession" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Delivery Date" label="Delivery Date" max_length="40" name="u_delivery_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Final Price" label="Final Price" max_length="40" name="u_final_price" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MRP" label="MRP" max_length="40" name="u_mrp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Product name" label="Product name" max_length="40" name="u_product_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>

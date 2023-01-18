@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_960589_collect_0.PurchaseAndDeliveryDate</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>PurchaseAndDeliveryDate</name>
+        <script><![CDATA[var PurchaseAndDeliveryDate = Class.create();
+PurchaseAndDeliveryDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getDate: function() {
+        var purchaseDate = new GlideDateTime();
+        var result = {
+            purchase: purchaseDate.getDate().toString()
+        };
+        return JSON.stringify(result);
+    },
+	getDeliveryDate: function() {
+// 					gs.addInfoMessage("heee");
+// 		var deliveryDate = new GlideDateTime(this.getParameter('sysparm_purchased_date'));
+		var deliveryDate = new GlideDateTime();
+        deliveryDate.addDaysLocalTime(5);
+// 		gs.addInfoMessage("sys_id"+this.getParameter('sysparm_sys_id'));
+		var gr = new GlideRecord('x_960589_collect_0_collection_table');
+		gr.get(this.getParameter('sysparm_sys_id'));
+		gr.query();
+// 		gs.addInfoMessage("count"+gr.getRowCount());
+		gs.info("count"+gr.getRowCount()+"sys_id"+this.getParameter('sysparm_sys_id')+"date"+deliveryDate.getDate().toString());
+		if(gr.next()){
+		gr.setValue('delivery_date',deliveryDate.getDate().toString());
+		gr.update();
+		}
+		
+		return "success";
+
+	},
+    type: 'PurchaseAndDeliveryDate'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 10:57:42</sys_created_on>
+        <sys_id>1c9c5c35975065102175bb5ef053aff9</sys_id>
+        <sys_name>PurchaseAndDeliveryDate</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+        <sys_update_name>sys_script_include_1c9c5c35975065102175bb5ef053aff9</sys_update_name>
+    </sys_script_include>
+</record_update>

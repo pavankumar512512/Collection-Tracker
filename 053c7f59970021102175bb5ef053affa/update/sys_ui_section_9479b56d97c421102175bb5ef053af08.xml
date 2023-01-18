@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Created User Details" section_id="9479b56d97c421102175bb5ef053af08" sys_domain="global" table="x_960589_collect_0_collection_table" version="3" view="Workspace-Collection-Tracker-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 12:46:50</sys_created_on>
+            <sys_id>d079b56d97c421102175bb5ef053af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Created User Details" display_value="Created User Details" name="x_960589_collect_0_collection_table" sys_domain="global" view="9269f16dfbc42110deea35d3f832ca56">9479b56d97c421102175bb5ef053af08</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 12:46:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 12:46:50</sys_created_on>
+            <sys_id>d479b56d97c421102175bb5ef053af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Created User Details" display_value="Created User Details" name="x_960589_collect_0_collection_table" sys_domain="global" view="9269f16dfbc42110deea35d3f832ca56">9479b56d97c421102175bb5ef053af08</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 12:46:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 12:46:50</sys_created_on>
+            <sys_id>d879b56d97c421102175bb5ef053af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Created User Details" display_value="Created User Details" name="x_960589_collect_0_collection_table" sys_domain="global" view="9269f16dfbc42110deea35d3f832ca56">9479b56d97c421102175bb5ef053af08</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-28 12:46:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Created User Details</caption>
+            <header>false</header>
+            <name>x_960589_collect_0_collection_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 12:46:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9479b56d97c421102175bb5ef053af08</sys_id>
+            <sys_name>x_960589_collect_0_collection_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Collection Tracker" source="x_960589_collect_0">053c7f59970021102175bb5ef053affa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Collection Tracker">053c7f59970021102175bb5ef053affa</sys_scope>
+            <sys_update_name>sys_ui_section_9479b56d97c421102175bb5ef053af08</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Collection Tracker 0" name="Workspace-Collection-Tracker-0">9269f16dfbc42110deea35d3f832ca56</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
